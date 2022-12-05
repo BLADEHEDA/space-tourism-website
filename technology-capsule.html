@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/technology.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <main>
+    <header>  
+      <nav class="navbar">  
+        <nav class="mobile ">
+          <nav class="left-img "><img src="./assets/shared/logo.svg" alt="logo" class="nav-img"> </nav>
+          <nav class="right">  
+            <div class="ham-buton"><img src="./assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="hanburder"> </div> 
+            <nav class="links"> 
+              <div class="close-button"><img src="./assets/shared/icon-close.svg" alt="icon-close" class="close" ></div>    
+              <ul class="list">
+                <li class="list-item"><a href="index.html" class="link-item">  00 Home</a>  </li>
+                <li class="list-item"><a href="destination-moon.html" class="link-item">  01 Destination</a>  </li>
+                <li class="list-item"><a href="crew-commander.html" class="link-item">  Crew</a>  </li>
+                <li class="list-item" ><a href="#" class="link-item" > 03 Technology </a>  </li>
+              </ul>
+          </nav>
+       </nav>
+        </nav>
+    
+        <nav class="tablet nav">
+          <nav class="left-img "><img src="./assets/shared/logo.svg" alt="logo" class="nav-img"> </nav>
+          <nav class="right"> 
+            <ul class="list">
+              <li class="list-item"><a href="index.html" class="link-item">  00 Home</a>  </li>
+              <li class="list-item"><a href="destination-moon.html" class="link-item">  01 Destination</a>  </li>
+              <li class="list-item"><a href="crew-commander.html" class="link-item">  Crew</a>  </li>
+              <li class="list-item" ><a href="#" class="link-item" id="active-nav"> 03 Technology </a>  </li>
+            </ul>
+          </nav>
+        </nav>
+        </nav>
+    
+        <nav class="desktop nav">
+          <nav class="left-img "><img src="./assets/shared/logo.svg" alt="logo" class="nav-img"> <hr></nav> 
+          <nav class="right"> 
+          <ul class="list">
+            <li class="list-item"><a href="index.html" class="link-item">  00 Home</a>  </li>
+            <li class="list-item"><a href="destination-moon.html" class="link-item">  01 Destination</a>  </li>
+            <li class="list-item"><a href="crew-commander.html" class="link-item">  Crew</a>  </li>
+            <li class="list-item" ><a href="#" class="link-item" id="active-nav"> 03 Technology </a>  </li>
+          </ul>
+        </nav>
+      </nav>
+      </nav>
+    </header>
+
+    <section class="mobile tablet">
+  <h1 class="tec-heading">   03 Space launch 101 </h1>
+  <picture class="tech-pic">  
+    <img src="./assets/technology/image-space-capsule-landscape.jpg" alt="technology-mobile" class="tech-mob">
+    <img src="./assets/technology/image-space-capsule-landscape.jpg" alt="technology-tablet" class="tech-tab"  >
+    </picture>
+    <div class="buttons">
+      <div class="buttons">
+        <button class="button" ><a href="technology-vehicle.html">1</a> </button>
+        <button class="button" id="active"> <a href="#">2</a></button>
+        <button class="button"><a href="technology-spaceport.html">3</a></button>
+    </div>
+  <p class="terminology"> The terminology...</p>
+  <h2 class="machine"> Space capsule</h2>
+  <p class="tech-content">
+    A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+    capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+    you'll spend your time during the flight. It includes a space gym, cinema, 
+    and plenty of other activities to keep you entertained.
+  </p>
+    </section>
+    <section class="desktop desktop1">
+      <div class="tech-left">
+        <h1 class="tec-heading">   03 Space launch 101 </h1>
+        <div class="left-one">
+          <div class="buttons">
+            <button class="button" ><a href="technology-vehicle.html">1</a> </button>
+            <button class="button" id="active"> <a href="#">2</a></button>
+            <button class="button"><a href="technology-spaceport.html">3</a></button>
+        </div>
+        <div class="left-two">
+          <p class="terminology"> The terminology...</p>
+      <h2 class="machine"> Space capsule</h2>
+      <p class="tech-content">
+        A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+        you'll spend your time during the flight. It includes a space gym, cinema, 
+        and plenty of other activities to keep you entertained.
+      </p>
+        </div>
+        </div>
+      </div>
+  
+      <div class="tech-right">
+        <picture class="tech-pic">  
+          <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="technology-tablet" class="tech-des">
+        </picture>
+      </div>
+    </section>
+  </main>
+  <script src="script.js" ></script>
+</body>
+</html>
