@@ -7,7 +7,10 @@ main{
     padding:0;  
 }
 .b-link{
+
     color:white;
+    text-decoration: none
+    ;
 }
 @media only screen and (min-width:10px){
     body{
