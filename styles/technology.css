@@ -6,7 +6,7 @@ main{
     margin:0;
     padding:0;  
 }
-a{
+.b-link{
     color:white;
 }
 @media only screen and (min-width:10px){
